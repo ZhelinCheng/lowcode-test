@@ -2,8 +2,8 @@
  * @Author       : 程哲林
  * @Date         : 2022-08-12 17:05:10
  * @LastEditors  : 程哲林
- * @LastEditTime : 2022-08-15 15:27:44
- * @FilePath     : /one-piece-joda-fe/vite.config.ts
+ * @LastEditTime : 2022-08-15 19:13:46
+ * @FilePath     : /lowcode-test/vite.config.ts
  * @Description  : 未添加文件描述
  */
 import { defineConfig } from 'vite';
@@ -38,7 +38,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['prop-types']
+      external: ['prop-types', 'lodash']
     }
   }
 });
